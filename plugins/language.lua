@@ -134,13 +134,13 @@ end
  	return [[
 List of language:
  	
-⚓️ !setlang en
+ !setlang en
 Change language to English
  	
-⚓️ !setlang fa
+ !setlang fa
 تغییر زبان به فارسی با دستورات انگلیسی
  	
-⚓️ !setlang فا
+ !setlang فا
 تغییر زبان به فارسی با دستورات فارسی
 ]]
 end
@@ -149,11 +149,7 @@ end
 end
 end
  return {
- advan = {
- "Created by: @janlou",
- "Powered by: @AdvanTm",
- "CopyRight all right reserved",
- },
+
  patterns = {
     "^[!#/](setlang) (fa)$",
 	   "^[!#/](setlang) (en)$",
