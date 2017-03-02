@@ -1,4 +1,4 @@
---Start tools.lua by @janlou
+--Start tools.lua 
 --[[Plugins:
 savefile
 saveplug
@@ -1039,19 +1039,13 @@ function run(msg, matches, callback, extra)
 			    return "Hello dear ["..msg.from.print_name.."], welcome to "..msg.to.print_name.."\nThanks for /start me :)\n"
 	        end
         end
-	   --Start.
-	   --ADV(Dont change!):
-	    if msg.text:match("^[!/#][Aa][Dd][Vv][Aa][Nn]$") then
-    	    about_text = [[*IN THE NAME OF ALLAH*
-This is an original bot and based on (AdvanSource).
-Copyright all right reserved and you must respect all laws.
 
-Source: https://github.com/janlou/AdvanSource
-Channel: @AdvanTeam
-Messenger: @Advanbot
-Creator: @janlou
-Site: http://StoreVps.net
-Version: [4.1]
+	    if msg.text:match("^[!/#][Zz][Ee][Uu][Ss]$") then
+    	    about_text = [[*IN THE NAME OF ALLAH*
+Channel: @Telezeus_team
+Creator: @UMBRAGE
+Site: http://ZEUSGRAM.BLOG.IR
+Version: 1
 ]]
     	    return about_text
         end
@@ -1243,9 +1237,9 @@ Version: [4.1]
 end
 
 return {
-  advan = {
-   "Created by: @janlou",
-   "Powered by: @AdvanTeam",
+  zeus = {
+   "Created by: @UMBRAGE",
+   "Powered by: @Telezeus_team",
    "CopyRight all right reserved",
   },
   patterns = {
